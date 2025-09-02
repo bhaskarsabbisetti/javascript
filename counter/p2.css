@@ -1,0 +1,12 @@
+#heading{
+    text-align: center;
+    color: deeppink;
+}
+#count{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+#inc{
+    margin-left: 40%;
+}
