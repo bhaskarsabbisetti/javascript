@@ -1,0 +1,40 @@
+.heading{
+    color: goldenrod;
+    text-align: center;
+}
+div{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border: solid ;
+    border-radius: 50%;
+    margin-left: 42%;
+    text-align: center;
+}
+p{
+    margin-top: 80px;
+    font-size: 2rem;
+}
+#div{
+    animation: div 1s ease-in-out forwards;
+}
+
+@keyframes div {
+  0%   { transform: rotateY(0deg); }
+  25%{ transform: rotateY(180deg);}
+  50%  { transform: rotateY(360deg); }
+  75%{transform: rotateY(180deg);}
+  100% { transform: rotateY(360deg); }
+}
+#flip{
+    background-color: goldenrod;
+    padding: 10px;
+    color: aliceblue;
+    margin-left: 48%;
+    border-color: goldenrod;
+    border-radius: 4%;
+    margin-top: 15px;
+
+}
