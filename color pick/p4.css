@@ -1,0 +1,12 @@
+#heading{
+    text-align: center;
+    color: greenyellow;
+}
+#div{
+    margin-left: 40%;
+}
+#div button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9%;
+}
